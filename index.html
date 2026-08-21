@@ -72,8 +72,7 @@
 
   /* Pull quote */
   .pullquote { background: var(--green-pale); padding: 22px 0; text-align: center; }
-  .pullquote p { font-size: 22px; font-style: italic; color: var(--navy); max-width: 640px; margin: 0 auto; font-weight: 600; line-height: 1.4; }
-  .pullquote .attribution { font-size: 14px; font-style: normal; font-weight: 600; color: var(--green); margin-top: 8px; }
+  .pullquote p { font-size: 22px; font-style: normal; color: var(--navy); max-width: 640px; margin: 0 auto; font-weight: 600; line-height: 1.4; }
 
   /* Why running */
   .why { background: var(--green); color: var(--white); }
@@ -127,9 +126,9 @@
   .endorse-card { background: var(--gray-card); border-radius: 10px; padding: 20px 22px; }
   .endorse-card h4 { font-size: 17px; color: var(--navy); margin-bottom: 4px; }
   .endorse-card p { font-size: 14px; color: var(--text-muted); }
-  .endorse-card.pending { background: transparent; border: 1.5px dashed #b9c0c9; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .endorse-card.pending { background: transparent; border: 1.5px dashed #b9c0c9; display: flex; align-items: center; justify-content: center; text-align: center; order: 900; }
   .endorse-card.pending p { font-size: 14px; color: #8b95a1; font-style: italic; }
-  .endorse-card.add-endorse { background: transparent; border: 1.5px dashed var(--green); }
+  .endorse-card.add-endorse { background: transparent; border: 1.5px dashed var(--green); order: 901; }
   .endorse-card.add-endorse .field { margin-bottom: 8px; }
   .endorse-card.add-endorse input {
     width: 100%; padding: 10px 14px; border-radius: 20px; border: 1.5px solid #b9d9c2;
@@ -183,18 +182,18 @@
 
 <nav>
   <div class="wrap">
-    <div class="brand" data-i18n="nav_brand">Vote Maya for Menlo on November 3rd, 2026</div>
+    <div class="brand" data-i18n="nav_brand">Vote Maya Herstein for MPCSD on November 3rd, 2026</div>
     <div class="links">
       <a class="navlink" href="#why" data-i18n="nav_why">Why I'm Running</a>
       <a class="navlink" href="#priorities" data-i18n="nav_priorities">Priorities</a>
       <a class="navlink" href="#endorsements" data-i18n="nav_endorsements">Endorsements</a>
       <a class="navlink" href="#involve" data-i18n="nav_involve">Get Involved</a>
       <a href="#donate" class="cta" data-i18n="nav_donate">Donate</a>
-      <div class="lang-switch">
-        <button type="button" class="lang-btn active" data-lang="en">EN</button>
-        <button type="button" class="lang-btn" data-lang="es">ES</button>
-        <button type="button" class="lang-btn" data-lang="zh">中文</button>
-      </div>
+    </div>
+    <div class="lang-switch">
+      <button type="button" class="lang-btn active" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="zh">中文</button>
     </div>
   </div>
 </nav>
@@ -218,8 +217,7 @@
 <!-- PULL QUOTE -->
 <section class="pullquote">
   <div class="wrap">
-    <p>&#8220;<span data-i18n="pullquote">It's important to have more Board members who have kids currently enrolled in the district.</span>&#8221;</p>
-    <div class="attribution">— Menlo Park parent</div>
+    <p><span data-i18n="pullquote">Our board needs a parent who brings firsthand experience of families currently in the district to ground its decisions in everyday classroom realities.</span></p>
   </div>
 </section>
 
@@ -310,8 +308,8 @@
   <div class="wrap story-grid">
     <div class="story-text">
       <h2 data-i18n="story_h2">Vote for Maya — November 3rd, 2026</h2>
-      <p data-i18n="story_p1">Hear directly from me about why I'm running and what I'll bring to the MPCSD Board as a current, active parent in our schools.</p>
-      <p data-i18n="story_p2">I want to hear from parents like you — what's working, what's not, and what matters most for your kids. Every conversation, yard sign, and volunteer hour helps get this message in front of more MPCSD families before November 3rd.</p>
+      <p data-i18n="story_p1">The best conversations happen in person, so feel free to come say hello or drop me an email. I want to hear from parents like you — what's working, what's not, and what matters most for your kids.</p>
+      <p data-i18n="story_p2">I would love to get your support, whether that's an hour of your time, a coffee, or a yard sign.</p>
       <a href="#involve" class="btn" data-i18n="story_btn_involve">Get Involved</a>
       <a href="#donate" class="btn-outline" data-i18n="story_btn_donate">Donate</a>
     </div>
@@ -349,20 +347,32 @@
         <p>Former Hillview PTO President</p>
       </div>
       <div class="endorse-card">
+        <h4>Nadeen Soliman</h4>
+        <p>Menlo Park Business Owner</p>
+      </div>
+      <div class="endorse-card">
         <h4>Rebecca Emery</h4>
-        <p>M-A PTA PTO Chair, former Hillview PTO</p>
+        <p>M-A PTO Chair, former Hillview PTO</p>
+      </div>
+      <div class="endorse-card">
+        <h4>Jennifer Baskin</h4>
+        <p>Former MPAEF President</p>
       </div>
       <div class="endorse-card">
         <h4>Cindy Tsai</h4>
         <p>Oak Knoll PTO Communications Chair</p>
       </div>
       <div class="endorse-card">
-        <h4>Nadeen Soliman</h4>
-        <p>Menlo Park Business Owner</p>
+        <h4>Lesley Geivett</h4>
+        <p>Former PTO Treasurer and Auditor</p>
       </div>
       <div class="endorse-card">
         <h4>Michelle de Haaff</h4>
         <p>Former President, Menlo-Atherton Foundation for the Future</p>
+      </div>
+      <div class="endorse-card">
+        <h4>Jacqueline Kort</h4>
+        <p>Former Site Council Rep, MPCSD Parent</p>
       </div>
       <div class="endorse-card pending">
         <p data-i18n="endorse_pending">More endorsements coming soon</p>
@@ -418,9 +428,8 @@
       <button type="button" class="amount-btn">$500</button>
       <button type="button" class="amount-btn">Other</button>
     </div>
-    <!-- TEMP: online giving isn't connected yet. Swap this href for your ActBlue/Anedot/etc. donation link once your fundraising account is ready. -->
-    <a href="mailto:contact@mayaformenlo.com?subject=I'd%20like%20to%20contribute" class="btn" data-i18n="btn_donate">Donate</a>
-    <div class="fine-print" data-i18n="donate_fine">Online giving is being set up — clicking Donate will open an email to the campaign for now. Contributions are subject to California campaign finance disclosure rules. Donations of $100 or more require your occupation and employer.</div>
+    <a href="https://www.efundraisingconnections.com/c/MayaHersteinforMPCSDSchoolBoard" class="btn" target="_blank" rel="noopener" data-i18n="btn_donate">Donate</a>
+    <div class="fine-print" data-i18n="donate_fine">Contributions are subject to California campaign finance disclosure rules. Donations of $100 or more require your occupation and employer.</div>
   </div>
 </section>
 
@@ -479,7 +488,7 @@ if (endorseForm) {
 
 var translations = {
   "en": {
-    "nav_brand": "Vote Maya for Menlo on November 3rd, 2026",
+    "nav_brand": "Vote Maya Herstein for MPCSD on November 3rd, 2026",
     "nav_why": "Why I'm Running",
     "nav_priorities": "Priorities",
     "nav_endorsements": "Endorsements",
@@ -491,7 +500,7 @@ var translations = {
     "hero_p3": "I hold a law degree and an MBA, and I bring a practical, thoughtful, hands-on approach to service — one built on listening, asking the right questions, and working collaboratively toward solutions.",
     "btn_donate": "Donate",
     "btn_involve": "Get Involved",
-    "pullquote": "It's important to have more Board members who have kids currently enrolled in the district.",
+    "pullquote": "Our board needs a parent who brings firsthand experience of families currently in the district to ground its decisions in everyday classroom realities.",
     "why_h2": "Why I'm Running",
     "why_p1": "I am running to bring a current-parent perspective to the Board. I believe the district is stronger, and community trust is deeper, when the Board includes voices who are experiencing MPCSD today and understand how decisions affect students, families, and teachers in real time.",
     "why_p2": "Elementary and middle school are foundational years, and students need strong academic standards with targeted support, safe and welcoming schools, and teachers and staff who have the resources they need to help every child grow. My focus will be on listening, asking thoughtful questions, managing resources responsibly, and making decisions that support students, teachers, families, and the broader community.",
@@ -522,8 +531,8 @@ var translations = {
     "p4_b2": "Clear communication on financial decisions",
     "p4_b3": "Decisions families can understand and trust",
     "story_h2": "Vote for Maya — November 3rd, 2026",
-    "story_p1": "Hear directly from me about why I'm running and what I'll bring to the MPCSD Board as a current, active parent in our schools.",
-    "story_p2": "I want to hear from parents like you — what's working, what's not, and what matters most for your kids. Every conversation, yard sign, and volunteer hour helps get this message in front of more MPCSD families before November 3rd.",
+    "story_p1": "The best conversations happen in person, so feel free to come say hello or drop me an email. I want to hear from parents like you — what's working, what's not, and what matters most for your kids.",
+    "story_p2": "I would love to get your support, whether that's an hour of your time, a coffee, or a yard sign.",
     "story_btn_involve": "Get Involved",
     "story_btn_donate": "Donate",
     "story_caption": "Volunteering in a MPCSD classroom",
@@ -547,7 +556,7 @@ var translations = {
     "prefer_email": "Prefer email? contact@mayaformenlo.com",
     "donate_h2": "Donate",
     "donate_p": "Your support helps us reach every voter before November 3rd — from yard signs to mailers to community events. Every contribution makes a real difference in a close race.",
-    "donate_fine": "Online giving is being set up — clicking Donate will open an email to the campaign for now. Contributions are subject to California campaign finance disclosure rules. Donations of $100 or more require your occupation and employer.",
+    "donate_fine": "Contributions are subject to California campaign finance disclosure rules. Donations of $100 or more require your occupation and employer.",
     "footer_tag": "for Menlo Park City School District"
   },
   "es": {
@@ -563,7 +572,7 @@ var translations = {
     "hero_p3": "Tengo un título en derecho y un MBA, y aporto un enfoque práctico, reflexivo y directo al servicio público — basado en escuchar, hacer las preguntas correctas y trabajar en colaboración hacia soluciones.",
     "btn_donate": "Donar",
     "btn_involve": "Involúcrate",
-    "pullquote": "Es importante tener más miembros de la Junta que tengan hijos actualmente inscritos en el distrito.",
+    "pullquote": "Nuestra Junta necesita un padre o madre que aporte experiencia de primera mano de las familias actualmente inscritas en el distrito, para fundamentar sus decisiones en la realidad cotidiana del aula.",
     "why_h2": "Por qué me postulo",
     "why_p1": "Me postulo para aportar la perspectiva de una madre actual a la Junta. Creo que el distrito es más fuerte, y la confianza comunitaria más profunda, cuando la Junta incluye voces que están viviendo el MPCSD hoy y entienden cómo las decisiones afectan en tiempo real a estudiantes, familias y maestros.",
     "why_p2": "La primaria y la secundaria son años fundamentales, y los estudiantes necesitan estándares académicos sólidos con apoyo específico, escuelas seguras y acogedoras, y maestros y personal que cuenten con los recursos necesarios para ayudar a cada niño a crecer. Mi enfoque estará en escuchar, hacer preguntas reflexivas, administrar los recursos de manera responsable y tomar decisiones que apoyen a los estudiantes, maestros, familias y la comunidad en general.",
@@ -594,8 +603,8 @@ var translations = {
     "p4_b2": "Comunicación clara sobre las decisiones financieras",
     "p4_b3": "Decisiones que las familias puedan entender y confiar",
     "story_h2": "Vote por Maya — 3 de noviembre de 2026",
-    "story_p1": "Escuche directamente de mí por qué me postulo y qué aportaré a la Junta del MPCSD como madre actual y activa en nuestras escuelas.",
-    "story_p2": "Quiero escuchar a padres como usted — qué está funcionando, qué no, y qué es lo más importante para sus hijos. Cada conversación, letrero de jardín y hora de voluntariado ayuda a que este mensaje llegue a más familias del MPCSD antes del 3 de noviembre.",
+    "story_p1": "Las mejores conversaciones ocurren en persona, así que no dude en venir a saludarme o enviarme un correo electrónico. Quiero escuchar a padres como usted — qué está funcionando, qué no, y qué es lo más importante para sus hijos.",
+    "story_p2": "Me encantaría contar con su apoyo, ya sea una hora de su tiempo, un café o un letrero de jardín.",
     "story_btn_involve": "Involúcrate",
     "story_btn_donate": "Donar",
     "story_caption": "Como voluntaria en un aula del MPCSD",
@@ -619,7 +628,7 @@ var translations = {
     "prefer_email": "¿Prefiere el correo electrónico? contact@mayaformenlo.com",
     "donate_h2": "Donar",
     "donate_p": "Su apoyo nos ayuda a llegar a cada votante antes del 3 de noviembre — desde letreros de jardín hasta correspondencia y eventos comunitarios. Cada contribución marca una verdadera diferencia en una contienda reñida.",
-    "donate_fine": "La donación en línea se está configurando — por ahora, al hacer clic en Donar se abrirá un correo electrónico a la campaña. Las contribuciones están sujetas a las reglas de divulgación de finanzas de campaña de California. Las donaciones de $100 o más requieren su ocupación y empleador.",
+    "donate_fine": "Las contribuciones están sujetas a las reglas de divulgación de finanzas de campaña de California. Las donaciones de $100 o más requieren su ocupación y empleador.",
     "footer_tag": "para la Junta del Distrito Escolar de la Ciudad de Menlo Park"
   },
   "zh": {
@@ -635,7 +644,7 @@ var translations = {
     "hero_p3": "我拥有法律学位和工商管理硕士（MBA）学位，秉持务实、周到、亲力亲为的服务理念——善于倾听、提出正确的问题，并通过协作寻求解决方案。",
     "btn_donate": "捐款",
     "btn_involve": "参与其中",
-    "pullquote": "让更多孩子目前就在本学区就读的家长加入教育委员会，这一点非常重要。",
+    "pullquote": "教育委员会需要一位家长，凭借对目前在学区就读家庭的第一手经验，让委员会的决策更贴近日常课堂的真实情况。",
     "why_h2": "参选理由",
     "why_p1": "我参选是希望为教育委员会带来现任家长的视角。我相信，当委员会中有正在亲身经历MPCSD、了解决策如何实时影响学生、家庭和教师的声音时，学区会更强大，社区的信任也会更深厚。",
     "why_p2": "小学和初中阶段是打基础的关键时期，学生需要严格的学业标准与针对性支持、安全友善的校园环境，以及拥有足够资源来帮助每个孩子成长的教师和教职员工。我将专注于倾听、提出深思熟虑的问题、负责任地管理资源，并做出有利于学生、教师、家庭和更广泛社区的决策。",
@@ -666,8 +675,8 @@ var translations = {
     "p4_b2": "财务决策清晰透明",
     "p4_b3": "让家庭能够理解和信任的决策",
     "story_h2": "投票支持玛雅——2026年11月3日",
-    "story_p1": "请直接听我讲述我参选的原因，以及作为一名现任、积极参与学校事务的家长，我将为MPCSD教育委员会带来什么。",
-    "story_p2": "我想听听像您这样的家长的想法——哪些方面做得好，哪些方面还需改进，以及对您的孩子来说什么最重要。每一次交流、每一个草坪标牌、每一小时的志愿服务，都能帮助在11月3日之前让更多MPCSD家庭了解这一信息。",
+    "story_p1": "最好的交流总是当面进行，欢迎随时来打个招呼，或给我发邮件。我想听听像您这样的家长的想法——哪些方面做得好，哪些方面还需改进，以及对您的孩子来说什么最重要。",
+    "story_p2": "我很希望能得到您的支持，无论是抽出一小时的时间、一起喝杯咖啡，还是放置一个草坪标牌。",
     "story_btn_involve": "参与其中",
     "story_btn_donate": "捐款",
     "story_caption": "在MPCSD教室担任志愿者",
@@ -691,7 +700,7 @@ var translations = {
     "prefer_email": "更喜欢用邮件联系？contact@mayaformenlo.com",
     "donate_h2": "捐款",
     "donate_p": "您的支持能帮助我们在11月3日前接触到每一位选民——从草坪标牌到邮寄宣传单，再到社区活动。在这场势均力敌的选举中，每一笔捐款都至关重要。",
-    "donate_fine": "在线捐款功能正在设置中——目前点击「捐款」将打开一封发送给竞选团队的电子邮件。捐款须遵守加利福尼亚州竞选财务披露规定。捐款100美元及以上需提供您的职业和雇主信息。",
+    "donate_fine": "捐款须遵守加利福尼亚州竞选财务披露规定。捐款100美元及以上需提供您的职业和雇主信息。",
     "footer_tag": "竞选门洛帕克市学区教育委员会"
   }
 };
