@@ -1,0 +1,53 @@
+diff --git a/index.html b/index.html
+index 39d1542..fe39b5d 100644
+--- a/index.html
++++ b/index.html
+@@ -413,6 +413,10 @@
+           <p>LLESD Former Trustee and Board President</p>
+         </div>
+       </div>
++      <div class="endorse-card">
++        <h4>Jennifer Zweig</h4>
++        <p>Former Woodside School Board President</p>
++      </div>
+       <div class="endorse-card has-photo">
+         <img src="webster-lincoln.jpg" alt="Webster Lincoln" style="object-position: center 15%;" />
+         <div class="endorse-text">
+@@ -421,9 +425,9 @@
+         </div>
+       </div>
+       <div class="endorse-card has-photo">
+-        <img src="stacey-holland.jpg" alt="Stacey Holland" />
++        <img src="stacey-holland.jpg" alt="Stacy Holland" />
+         <div class="endorse-text">
+-          <h4>Stacey Holland</h4>
++          <h4>Stacy Holland</h4>
+           <p>Mayor of Atherton</p>
+         </div>
+       </div>
+@@ -511,6 +515,10 @@
+         <h4>Dana Goldstein</h4>
+         <p>Hillview Service Team Co-Chair</p>
+       </div>
++      <div class="endorse-card">
++        <h4>Vamsi Velagapudi</h4>
++        <p>Menlo Park Audit and Finance Committee, Bond Oversight Committee</p>
++      </div>
+     </div>
+ 
+     <div class="endorse-section-title">Parents &amp; Community Members</div>
+@@ -639,6 +647,14 @@
+         <h4>Sarah Cullen</h4>
+         <p>MPCSD Parent</p>
+       </div>
++      <div class="endorse-card">
++        <h4>Lindsay Ehrman</h4>
++        <p>MPCSD Parent</p>
++      </div>
++      <div class="endorse-card">
++        <h4>Anusha Alishetty</h4>
++        <p>Atherton Resident</p>
++      </div>
+       <div class="endorse-card pending">
+         <p data-i18n="endorse_pending">More endorsements coming soon</p>
+       </div>
